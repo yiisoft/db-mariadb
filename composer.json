@@ -1,37 +1,38 @@
 {
-    "name": "yiisoft/_____",
+    "name": "yiisoft/db-mariadb",
     "type": "library",
-    "description": "_____",
+    "description": "Yii Database MariaDB driver",
     "keywords": [
-        "_____"
+        "yii",
+        "db",
+        "mariadb"
     ],
     "homepage": "https://www.yiiframework.com/",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/yiisoft/_____/issues?state=open",
+        "issues": "https://github.com/yiisoft/db-mariadb/issues?state=open",
         "forum": "https://www.yiiframework.com/forum/",
         "wiki": "https://www.yiiframework.com/wiki/",
         "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/_____"
+        "source": "https://github.com/yiisoft/db-mariadb"
     },
     "require": {
         "php": "^7.4|^8.0"
     },
     "require-dev": {
-        "phan/phan": "^3.0",
         "phpunit/phpunit": "^9.4",
         "roave/infection-static-analysis-plugin": "^1.5",
         "spatie/phpunit-watcher": "^1.23",
-        "vimeo/psalm": "^4.2"
+        "vimeo/psalm": "^4.3"
     },
     "autoload": {
         "psr-4": {
-            "Yiisoft\\_____\\": "src"
+            "Yiisoft\\Db\\MariaDb\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Yiisoft\\_____\\Tests\\": "tests"
+            "Yiisoft\\Db\\MariaDb\\Tests\\": "tests"
         }
     },
     "extra": {
@@ -40,7 +41,6 @@
         }
     },
     "scripts": {
-        "phan": "phan --progress-bar -o analysis.txt",
         "test": "phpunit --testdox --no-interaction",
         "test-watch": "phpunit-watcher watch"
     },
