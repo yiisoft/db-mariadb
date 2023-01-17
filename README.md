@@ -1,3 +1,6 @@
+> ⚠️ The package is deprecated. Use [yiisoft/db-mysql](https://github.com/yiisoft/db-mysql) instead.
+
+
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://github.com/yiisoft.png" height="100px">
